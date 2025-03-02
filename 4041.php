@@ -29,13 +29,13 @@ $user = mysqli_fetch_assoc($result);
     <div class="terminal">
         <h1> 👀 <span class="errorcode">BIODATA ANDA</span></h1>
         <p>Welcome, <?php echo $user['username']; ?>! </p>
-        <p>Email Anda: <?php echo $user['email']; ?></p>
+        <p>Email Anda: Secret</p>
         <p>Nama Lengkap Anda: <?php echo $user['name']; ?></p>
         <p>Jenis Kelamin Anda: <?php echo $user['gender']; ?></p>
-        <p>Tempat dan Tanggal lahir Anda: <?php echo $user['ttl']; ?></p>
-        <p>Alamat Anda: <?php echo $user['alamat']; ?></p>
+        <p>Tempat dan Tanggal lahir Anda: Secret</p>
+        <p>Alamat Anda: Secret</p>
         </p>
-        <p class="output">Back to Login Page <a href="logout.php">Go back</a> or Back to <a href="index.php">Dashboard</a> </p>
+        <p class="output">Back to Login Page <a href="logout.php">Log Out</a> or Back to <a href="index.php">Dashboard</a> </p>
         <p class="output">Good luck.</p>
     </div>
 
